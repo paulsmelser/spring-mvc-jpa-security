@@ -1,0 +1,19 @@
+<archetype xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0 http://maven.apache.org/xsd/archetype-1.0.0.xsd">
+    <id>spring-mvc-jpa</id>
+    <sources>
+        <source>src/main/java/config/DataConfiguration</source>
+        <source>src/main/java/config/MvcConfiguration</source>
+        <source>src/main/java/controller/HomeController</source>
+        <source>src/main/java/entities/Person</source>
+        <source>src/main/java/repositories/PersonRepository</source>
+        <source>src/main/java/repositories/PersonRepository</source>
+    </sources>
+    <resources>
+        <resource>src/main/resource/application.properties</resource>
+        <resource>src/main/resource/db.sql</resource>
+        <resource>src/main/webapp/resources/style.css</resource>
+        <resource>src/main/webapp/WEB-INF/view/home.jsp</resource>
+        <resource>src/main/webapp/WEB-INF/web.xml</resource>
+    </resources>
+</archetype>

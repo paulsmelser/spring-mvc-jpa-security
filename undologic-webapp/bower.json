@@ -1,0 +1,30 @@
+{
+  "name": "undologic",
+  "version": "1.0.0",
+  "main": "resources/lib/custom/css/site.css",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.7",
+    "angular-animate": "~1.2.0",
+    "angular-resource": "~1.0.6",
+    "angular-route": "~1.2.0",
+    "angular-ui-router": "~0.2.11",
+    "bootstrap": "~3.0.1"
+  },
+  "homepage": "https://github.com/paulsmelser/spring-mvc-jpa-security-archetype",
+  "authors": [
+    "psmelser <paul.smelser@gmail.com>"
+  ],
+  "license": "MIT",
+  "resolutions": {
+    "angular": "~1.2.7"
+  }
+}
